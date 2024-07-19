@@ -1,0 +1,6 @@
+{
+  "package_name": "custom_interfaces",
+  "non_idl_tuples": [
+    "/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/src/custom_interfaces:srv/CheckStock.srv"
+  ]
+}

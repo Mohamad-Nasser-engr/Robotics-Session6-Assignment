@@ -1,0 +1,119 @@
+[0.000000] (-) TimerEvent: {}
+[0.000298] (custom_interfaces) JobQueued: {'identifier': 'custom_interfaces', 'dependencies': OrderedDict()}
+[0.000436] (session6_assignment) JobQueued: {'identifier': 'session6_assignment', 'dependencies': OrderedDict()}
+[0.000520] (custom_interfaces) JobStarted: {'identifier': 'custom_interfaces'}
+[0.017929] (session6_assignment) JobStarted: {'identifier': 'session6_assignment'}
+[0.076771] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'cmake'}
+[0.078592] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/src/custom_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/custom_interfaces'], 'cwd': '/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/build/custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mohamad'), ('LC_TIME', 'ar_LB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mohamad'), ('OLDPWD', '/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_LB.UTF-8'), ('SYSTEMD_EXEC_PID', '2584'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install:/home/mohamad/Inmind/Robotics-Session5-Ros2/session5_ros2_ws/install:/home/mohamad/Inmind/ros2_ws/install:/home/mohamad/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'mohamad'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mohamad'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mohamad-VirtualBox:@/tmp/.ICE-unix/1832,unix/mohamad-VirtualBox:/tmp/.ICE-unix/1832'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_LB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/1cae9b13_a7c6_4464_ad62_3c34b4747989'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_LB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.U97JQ2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.104'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/session6_assignment:/home/mohamad/Inmind/ros2_ws/install/session5_academy:/home/mohamad/Inmind/Robotics-Session5-Ros2/session5_ros2_ws/install/session5_assignment:/home/mohamad/ros2_ws/install/my_robot_controller:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_LB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_LB.UTF-8'), ('LC_IDENTIFICATION', 'ar_LB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/build/custom_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/session6_assignment/lib/python3.10/site-packages:/home/mohamad/Inmind/ros2_ws/install/session5_academy/lib/python3.10/site-packages:/home/mohamad/Inmind/Robotics-Session5-Ros2/session5_ros2_ws/install/session5_assignment/lib/python3.10/site-packages:/home/mohamad/ros2_ws/build/my_robot_controller:/home/mohamad/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_LB.UTF-8'), ('LC_PAPER', 'ar_LB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/session6_assignment:/home/mohamad/Inmind/ros2_ws/install/session5_academy:/home/mohamad/Inmind/Robotics-Session5-Ros2/session5_ros2_ws/install/session5_assignment:/home/mohamad/ros2_ws/install/my_robot_controller:/opt/ros/humble')]), 'shell': False}
+[0.158158] (-) TimerEvent: {}
+[0.258817] (-) TimerEvent: {}
+[0.359522] (-) TimerEvent: {}
+[0.463075] (-) TimerEvent: {}
+[0.563547] (-) TimerEvent: {}
+[0.664704] (-) TimerEvent: {}
+[0.765730] (-) TimerEvent: {}
+[0.866933] (-) TimerEvent: {}
+[0.967818] (-) TimerEvent: {}
+[1.068630] (-) TimerEvent: {}
+[1.173259] (-) TimerEvent: {}
+[1.281122] (-) TimerEvent: {}
+[1.383569] (-) TimerEvent: {}
+[1.484693] (-) TimerEvent: {}
+[1.595717] (-) TimerEvent: {}
+[1.702297] (-) TimerEvent: {}
+[1.803958] (-) TimerEvent: {}
+[1.914272] (-) TimerEvent: {}
+[2.069042] (-) TimerEvent: {}
+[2.170682] (-) TimerEvent: {}
+[2.271128] (-) TimerEvent: {}
+[2.372247] (-) TimerEvent: {}
+[2.453934] (custom_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.473745] (-) TimerEvent: {}
+[2.493698] (session6_assignment) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/session6_assignment', 'build', '--build-base', '/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/build/session6_assignment/build', 'install', '--record', '/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/build/session6_assignment/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/src/session6_assignment', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mohamad', 'LC_TIME': 'ar_LB.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/mohamad', 'OLDPWD': '/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ar_LB.UTF-8', 'SYSTEMD_EXEC_PID': '2584', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install:/home/mohamad/Inmind/Robotics-Session5-Ros2/session5_ros2_ws/install:/home/mohamad/Inmind/ros2_ws/install:/home/mohamad/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mohamad', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mohamad', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mohamad-VirtualBox:@/tmp/.ICE-unix/1832,unix/mohamad-VirtualBox:/tmp/.ICE-unix/1832', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_LB.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/1cae9b13_a7c6_4464_ad62_3c34b4747989', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ar_LB.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.U97JQ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.104', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/session6_assignment:/home/mohamad/Inmind/ros2_ws/install/session5_academy:/home/mohamad/Inmind/Robotics-Session5-Ros2/session5_ros2_ws/install/session5_assignment:/home/mohamad/ros2_ws/install/my_robot_controller:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_LB.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_LB.UTF-8', 'LC_IDENTIFICATION': 'ar_LB.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/build/session6_assignment', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/build/session6_assignment/prefix_override:/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/session6_assignment/lib/python3.10/site-packages:/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/session6_assignment/lib/python3.10/site-packages:/home/mohamad/Inmind/ros2_ws/install/session5_academy/lib/python3.10/site-packages:/home/mohamad/Inmind/Robotics-Session5-Ros2/session5_ros2_ws/install/session5_assignment/lib/python3.10/site-packages:/home/mohamad/ros2_ws/build/my_robot_controller:/home/mohamad/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ar_LB.UTF-8', 'LC_PAPER': 'ar_LB.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[2.584563] (-) TimerEvent: {}
+[2.691205] (-) TimerEvent: {}
+[2.778978] (session6_assignment) StdoutLine: {'line': b'running egg_info\n'}
+[2.779262] (session6_assignment) StdoutLine: {'line': b'writing ../../build/session6_assignment/session6_assignment.egg-info/PKG-INFO\n'}
+[2.779440] (session6_assignment) StdoutLine: {'line': b'writing dependency_links to ../../build/session6_assignment/session6_assignment.egg-info/dependency_links.txt\n'}
+[2.779705] (session6_assignment) StdoutLine: {'line': b'writing entry points to ../../build/session6_assignment/session6_assignment.egg-info/entry_points.txt\n'}
+[2.780264] (session6_assignment) StdoutLine: {'line': b'writing requirements to ../../build/session6_assignment/session6_assignment.egg-info/requires.txt\n'}
+[2.780676] (session6_assignment) StdoutLine: {'line': b'writing top-level names to ../../build/session6_assignment/session6_assignment.egg-info/top_level.txt\n'}
+[2.791691] (-) TimerEvent: {}
+[2.801054] (session6_assignment) StdoutLine: {'line': b"reading manifest file '../../build/session6_assignment/session6_assignment.egg-info/SOURCES.txt'\n"}
+[2.840653] (session6_assignment) StdoutLine: {'line': b"writing manifest file '../../build/session6_assignment/session6_assignment.egg-info/SOURCES.txt'\n"}
+[2.840817] (session6_assignment) StdoutLine: {'line': b'running build\n'}
+[2.840886] (session6_assignment) StdoutLine: {'line': b'running build_py\n'}
+[2.840950] (session6_assignment) StdoutLine: {'line': b'copying session6_assignment/check_stock_node.py -> /home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/build/session6_assignment/build/lib/session6_assignment\n'}
+[2.841014] (session6_assignment) StdoutLine: {'line': b'running install\n'}
+[2.847194] (session6_assignment) StdoutLine: {'line': b'running install_lib\n'}
+[2.847299] (session6_assignment) StdoutLine: {'line': b'copying /home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/build/session6_assignment/build/lib/session6_assignment/check_stock_node.py -> /home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/session6_assignment/lib/python3.10/site-packages/session6_assignment\n'}
+[2.852387] (session6_assignment) StdoutLine: {'line': b'byte-compiling /home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/session6_assignment/lib/python3.10/site-packages/session6_assignment/check_stock_node.py to check_stock_node.cpython-310.pyc\n'}
+[2.852491] (session6_assignment) StdoutLine: {'line': b'running install_data\n'}
+[2.852592] (session6_assignment) StdoutLine: {'line': b'copying package.xml -> /home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/session6_assignment/share/session6_assignment\n'}
+[2.852656] (session6_assignment) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.852735] (session6_assignment) StdoutLine: {'line': b"removing '/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/session6_assignment/lib/python3.10/site-packages/session6_assignment-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.852830] (session6_assignment) StdoutLine: {'line': b'Copying ../../build/session6_assignment/session6_assignment.egg-info to /home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/session6_assignment/lib/python3.10/site-packages/session6_assignment-0.0.0-py3.10.egg-info\n'}
+[2.869045] (session6_assignment) StdoutLine: {'line': b'running install_scripts\n'}
+[2.912423] (-) TimerEvent: {}
+[2.918261] (session6_assignment) StdoutLine: {'line': b"writing list of installed files to '/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/build/session6_assignment/install.log'\n"}
+[2.954949] (session6_assignment) CommandEnded: {'returncode': 0}
+[3.012608] (-) TimerEvent: {}
+[3.113981] (-) TimerEvent: {}
+[3.115982] (custom_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.133578] (session6_assignment) JobEnded: {'identifier': 'session6_assignment', 'rc': 0}
+[3.201971] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.214866] (-) TimerEvent: {}
+[3.315907] (-) TimerEvent: {}
+[3.416594] (-) TimerEvent: {}
+[3.492314] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.499770] (custom_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.501791] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.513967] (custom_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.517587] (-) TimerEvent: {}
+[3.521342] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.617934] (-) TimerEvent: {}
+[3.709426] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.718307] (custom_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.718422] (-) TimerEvent: {}
+[3.718717] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.719386] (custom_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.819624] (-) TimerEvent: {}
+[3.920483] (-) TimerEvent: {}
+[4.008606] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.021484] (-) TimerEvent: {}
+[4.122865] (-) TimerEvent: {}
+[4.224134] (-) TimerEvent: {}
+[4.324586] (-) TimerEvent: {}
+[4.425818] (-) TimerEvent: {}
+[4.536764] (-) TimerEvent: {}
+[4.537536] (custom_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.637745] (-) TimerEvent: {}
+[4.743567] (-) TimerEvent: {}
+[4.847419] (-) TimerEvent: {}
+[4.948941] (-) TimerEvent: {}
+[5.019784] (custom_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.082009] (-) TimerEvent: {}
+[5.182596] (-) TimerEvent: {}
+[5.207130] (custom_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.237580] (custom_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.273096] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[5.283568] (-) TimerEvent: {}
+[5.326378] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.371275] (custom_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[5.384408] (-) TimerEvent: {}
+[5.485088] (-) TimerEvent: {}
+[5.585912] (-) TimerEvent: {}
+[5.672287] (custom_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.686852] (-) TimerEvent: {}
+[5.787525] (-) TimerEvent: {}
+[5.832672] (custom_interfaces) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:64 (message):\n'}
+[5.833649] (custom_interfaces) StderrLine: {'line': b'  rosidl_generate_interfaces() must be called before ament_package()\n'}
+[5.833720] (custom_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[5.837044] (custom_interfaces) StderrLine: {'line': b'  CMakeLists.txt:31 (rosidl_generate_interfaces)\n'}
+[5.837120] (custom_interfaces) StderrLine: {'line': b'\n'}
+[5.837182] (custom_interfaces) StderrLine: {'line': b'\x1b[0m\n'}
+[5.837241] (custom_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[5.837307] (custom_interfaces) StdoutLine: {'line': b'See also "/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/build/custom_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[5.851801] (custom_interfaces) CommandEnded: {'returncode': 1}
+[5.875812] (custom_interfaces) JobEnded: {'identifier': 'custom_interfaces', 'rc': 1}
+[5.887129] (-) EventReactorShutdown: {}
