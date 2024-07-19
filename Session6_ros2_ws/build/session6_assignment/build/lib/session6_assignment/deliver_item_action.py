@@ -1,10 +1,9 @@
 import rclpy
-from rclpy.node import Node
-from rclpy.action import ActionServer
-from custom_interfaces.action import DeliverItem
-from rclpy.action import ActionClient
-from rclpy.action import CancelResponse, GoalResponse
 import time
+from rclpy.node import Node
+from custom_interfaces.action import DeliverItem
+from rclpy.action import ActionServer, GoalResponse
+from session6_assignment.check_stock_client import StockCheckerClient  # Import the StockChecker class
 
 class ItemDeliveryServer(Node):
 
@@ -14,11 +13,27 @@ class ItemDeliveryServer(Node):
             self,
             DeliverItem,
             'deliver_item',
-            execute_callback=self.execute_callback
+            execute_callback=self.execute_callback,
+            goal_callback=self.goal_callback,
+            handle_accepted_callback=self.handle_accepted_callback
         )
+        self.stock_checker = StockCheckerClient()  # Initialize StockChecker instance
+
+    def goal_callback(self, goal_request):
+        # Check stock before accepting the goal
+        stock_level = self.stock_checker.send_request(goal_request.item_name)
+        if stock_level is None or stock_level.stock_level < int(goal_request.quantity):
+            self.get_logger().info(f'Insufficient stock for {goal_request.item_name}')
+            return GoalResponse.REJECT
+        self.get_logger().info(f'Accepting goal request for {goal_request.quantity} of {goal_request.item_name}')
+        return GoalResponse.ACCEPT
+
+    def handle_accepted_callback(self, goal_handle):
+        self.get_logger().info('Goal accepted, executing...')
+        goal_handle.execute()
 
     async def execute_callback(self, goal_handle):
-        self.get_logger().info(f'Received delivery request for {goal_handle.request.quantity} of {goal_handle.request.item_name}')
+        self.get_logger().info(f'Executing delivery for {goal_handle.request.quantity} of {goal_handle.request.item_name}')
         feedback_msg = DeliverItem.Feedback()
         result_msg = DeliverItem.Result()
 
