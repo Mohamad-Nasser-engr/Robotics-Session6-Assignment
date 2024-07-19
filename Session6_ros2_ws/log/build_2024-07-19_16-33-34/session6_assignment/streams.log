@@ -1,0 +1,24 @@
+[1.592s] Invoking command in '/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/src/session6_assignment': PYTHONPATH=/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/build/session6_assignment/prefix_override:/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/session6_assignment/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/session6_assignment build --build-base /home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/build/session6_assignment/build install --record /home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/build/session6_assignment/install.log --single-version-externally-managed install_data
+[1.890s] running egg_info
+[1.891s] writing ../../build/session6_assignment/session6_assignment.egg-info/PKG-INFO
+[1.891s] writing dependency_links to ../../build/session6_assignment/session6_assignment.egg-info/dependency_links.txt
+[1.892s] writing entry points to ../../build/session6_assignment/session6_assignment.egg-info/entry_points.txt
+[1.892s] writing requirements to ../../build/session6_assignment/session6_assignment.egg-info/requires.txt
+[1.893s] writing top-level names to ../../build/session6_assignment/session6_assignment.egg-info/top_level.txt
+[1.895s] reading manifest file '../../build/session6_assignment/session6_assignment.egg-info/SOURCES.txt'
+[1.945s] writing manifest file '../../build/session6_assignment/session6_assignment.egg-info/SOURCES.txt'
+[1.945s] running build
+[1.945s] running build_py
+[1.946s] copying session6_assignment/check_stock_node.py -> /home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/build/session6_assignment/build/lib/session6_assignment
+[1.946s] running install
+[1.949s] running install_lib
+[1.949s] copying /home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/build/session6_assignment/build/lib/session6_assignment/check_stock_node.py -> /home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/session6_assignment/lib/python3.10/site-packages/session6_assignment
+[1.950s] byte-compiling /home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/session6_assignment/lib/python3.10/site-packages/session6_assignment/check_stock_node.py to check_stock_node.cpython-310.pyc
+[1.951s] running install_data
+[1.954s] running install_egg_info
+[1.955s] removing '/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/session6_assignment/lib/python3.10/site-packages/session6_assignment-0.0.0-py3.10.egg-info' (and everything under it)
+[1.955s] Copying ../../build/session6_assignment/session6_assignment.egg-info to /home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/session6_assignment/lib/python3.10/site-packages/session6_assignment-0.0.0-py3.10.egg-info
+[1.962s] running install_scripts
+[1.984s] Installing check_stock script to /home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/session6_assignment/lib/session6_assignment
+[1.986s] writing list of installed files to '/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/build/session6_assignment/install.log'
+[2.012s] Invoked command in '/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/src/session6_assignment' returned '0': PYTHONPATH=/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/build/session6_assignment/prefix_override:/home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/install/session6_assignment/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/session6_assignment build --build-base /home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/build/session6_assignment/build install --record /home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/build/session6_assignment/install.log --single-version-externally-managed install_data

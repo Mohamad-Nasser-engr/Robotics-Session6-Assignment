@@ -20,6 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'check_stock_service = session6_assignment.check_stock_node:main',
+            'check_stock_client = session6_assignment.check_stock_client:main'
         ],
     },
 )
