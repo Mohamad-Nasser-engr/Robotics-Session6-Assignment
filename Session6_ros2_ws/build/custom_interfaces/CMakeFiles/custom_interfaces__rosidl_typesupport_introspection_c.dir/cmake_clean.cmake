@@ -1,8 +1,12 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/action/detail/deliver_item__type_support.c.o"
+  "CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/action/detail/deliver_item__type_support.c.o.d"
   "CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/check_stock__type_support.c.o"
   "CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/check_stock__type_support.c.o.d"
   "libcustom_interfaces__rosidl_typesupport_introspection_c.pdb"
   "libcustom_interfaces__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/custom_interfaces/action/detail/deliver_item__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/custom_interfaces/action/detail/deliver_item__type_support.c"
   "rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/check_stock__rosidl_typesupport_introspection_c.h"
   "rosidl_typesupport_introspection_c/custom_interfaces/srv/detail/check_stock__type_support.c"
 )

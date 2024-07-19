@@ -12,6 +12,7 @@ resource/session6_assignment
 session6_assignment/__init__.py
 session6_assignment/check_stock_client.py
 session6_assignment/check_stock_node.py
+session6_assignment/deliver_item_action.py
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py

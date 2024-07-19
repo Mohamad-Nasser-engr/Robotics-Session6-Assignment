@@ -206,4 +206,9 @@ CMakeFiles/custom_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_p
  /home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/build/custom_interfaces/rosidl_generator_c/custom_interfaces/srv/detail/check_stock__struct.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
- /home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/build/custom_interfaces/rosidl_generator_c/custom_interfaces/srv/detail/check_stock__functions.h
+ /home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/build/custom_interfaces/rosidl_generator_c/custom_interfaces/srv/detail/check_stock__functions.h \
+ /home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/build/custom_interfaces/rosidl_generator_c/custom_interfaces/action/detail/deliver_item__type_support.h \
+ /home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/build/custom_interfaces/rosidl_generator_c/custom_interfaces/action/detail/deliver_item__struct.h \
+ /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
+ /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
+ /home/mohamad/Inmind/Robotics-Session6-Assignment/Session6_ros2_ws/build/custom_interfaces/rosidl_generator_c/custom_interfaces/action/detail/deliver_item__functions.h

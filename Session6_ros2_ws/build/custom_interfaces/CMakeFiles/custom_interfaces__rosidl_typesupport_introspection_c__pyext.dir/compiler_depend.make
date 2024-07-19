@@ -247,8 +247,19 @@ CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosi
   rosidl_generator_c/custom_interfaces/srv/detail/check_stock__struct.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/primitives_sequence.h \
-  rosidl_generator_c/custom_interfaces/srv/detail/check_stock__functions.h
+  rosidl_generator_c/custom_interfaces/srv/detail/check_stock__functions.h \
+  rosidl_generator_c/custom_interfaces/action/detail/deliver_item__type_support.h \
+  rosidl_generator_c/custom_interfaces/action/detail/deliver_item__struct.h \
+  /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
+  rosidl_generator_c/custom_interfaces/action/detail/deliver_item__functions.h
 
+
+rosidl_generator_c/custom_interfaces/action/detail/deliver_item__functions.h:
+
+/opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h:
+
+rosidl_generator_c/custom_interfaces/action/detail/deliver_item__struct.h:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/string.h:
 
@@ -291,6 +302,8 @@ CMakeFiles/custom_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosi
 /usr/include/python3.10/cpython/ceval.h:
 
 /usr/include/python3.10/genericaliasobject.h:
+
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h:
 
 /usr/include/python3.10/descrobject.h:
 
@@ -579,6 +592,8 @@ rosidl_generator_c/custom_interfaces/srv/detail/check_stock__type_support.h:
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
+
+rosidl_generator_c/custom_interfaces/action/detail/deliver_item__type_support.h:
 
 /usr/include/python3.10/funcobject.h:
 

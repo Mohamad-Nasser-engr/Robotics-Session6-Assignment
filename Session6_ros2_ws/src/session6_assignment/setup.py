@@ -21,7 +21,8 @@ setup(
     entry_points={
         'console_scripts': [
             'check_stock_service = session6_assignment.check_stock_node:main',
-            'check_stock_client = session6_assignment.check_stock_client:main'
+            'check_stock_client = session6_assignment.check_stock_client:main',
+            'deliver_item_action = session6_assignment.deliver_item_action:main'
         ],
     },
 )
