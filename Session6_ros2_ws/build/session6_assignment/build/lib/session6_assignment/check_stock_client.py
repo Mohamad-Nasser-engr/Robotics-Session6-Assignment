@@ -2,6 +2,7 @@ import sys
 import rclpy
 from rclpy.node import Node
 from custom_interfaces.srv import CheckStock
+import matplotlib.pyplot as plt
 
 class StockCheckerClient(Node):
 
@@ -11,13 +12,14 @@ class StockCheckerClient(Node):
         while not self.client.wait_for_service(timeout_sec=1.0):
             self.get_logger().info('Service is unavailable. Please wait...')
         self.request = CheckStock.Request()
+        
 
     def send_request(self, item_name):
         self.request.item_name = item_name
         self.future = self.client.call_async(self.request)
         rclpy.spin_until_future_complete(self, self.future)
         return self.future.result()
-
+ 
 def main(args=None):
     rclpy.init(args=args)
     node = StockCheckerClient()

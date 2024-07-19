@@ -13,6 +13,9 @@ class ItemDeliveryClient(Node):
         self._send_goal_future = None
         self._result_future = None
         self._goal_handle = None
+        #add for launch file
+        self.declare_parameter('item_name','default')
+        #
 
     def send_goal(self, item_name, quantity):
         while not self._action_client.wait_for_server(timeout_sec=1.0):
@@ -52,15 +55,22 @@ class ItemDeliveryClient(Node):
 def main(args=None):
     rclpy.init(args=args)
     item_delivery_client = ItemDeliveryClient()
-    item_name = str(sys.argv[1])
-    quantity = int(sys.argv[2])
+    
+    # Use this when runing the node individually
+    #item_name = str(sys.argv[1])
+    #quantity = int(sys.argv[2])
+    #
 
-    item_delivery_client.send_goal(item_name, quantity)
+    # Use this fo launch file   
+    item_name = item_delivery_client.get_parameter('item_name').get_parameter_value().string_value
+    quantity = item_delivery_client.declare_parameter('quantity', 0).value
+    #
+
+    item_delivery_client.send_goal(str(item_name), int(quantity))
     rclpy.spin(item_delivery_client)
 
     
     
-    #rclpy.shutdown()
 
 if __name__ == '__main__':
     main()
