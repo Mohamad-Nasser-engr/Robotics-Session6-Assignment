@@ -1,7 +1,7 @@
-#Description 
+# Description 
 This ROS2 workspace implements a simulated warehouse robot system where the robot is able to deliver items to clients and provide them with information about the stock levels of the items
 
-##Functionalities:
+## Functionalities:
 
 1. Item Delivery Action Server:
 This Node simulates the delivery process. First the node makes sure that the request can be completed by checking if there is enough stock of the wanted item (this is done using the stock checker client). After that, the node simulates the delivery process by giving feedback on the percentage of completion of the process.
