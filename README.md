@@ -5,51 +5,51 @@ This ROS2 workspace implements a simulated warehouse robot system where the robo
 
 1. Item Delivery Action Server:
 
-This Node simulates the delivery process. First the node makes sure that the request can be completed by checking if there is enough stock of the wanted item (this is done using the stock checker client). After that, the node simulates the delivery process by giving feedback on the percentage of completion of the process.
+- This Node simulates the delivery process. First the node makes sure that the request can be completed by checking if there is enough stock of the wanted item (this is done using the stock checker client). After that, the node simulates the delivery process by giving feedback on the percentage of completion of the process.
 
 2. Item Delivery Client:
 
-This node will send a request to the item delivery action.
+- This node will send a request to the item delivery action.
 
 3. Stock Checker Server:
 
-This node will recieve a request from the Stock checker client and then return to it the quantity of stock of the requested item. Note that the items' names and quantities are represented as a dictionary that is initialized with the node.
+- This node will recieve a request from the Stock checker client and then return to it the quantity of stock of the requested item. Note that the items' names and quantities are represented as a dictionary that is initialized with the node.
 
 4. Stock Checker Client:
 
-This node will send the request to the stock checker server. This node will also be called in the item delivery action server to make sure that the warehouse has enough stock for the delivery.
+- This node will send the request to the stock checker server. This node will also be called in the item delivery action server to make sure that the warehouse has enough stock for the delivery.
 
 5. launch file:
-The launch file will be used to run the item delivery action server, the item delivery client and the stock checker server. 
+- The launch file will be used to run the item delivery action server, the item delivery client and the stock checker server. 
 Note that the stock checker client won't be explictly runned from the launch file since it will be runned inside the item delivery action server.
 
 ## Usage:
 
 1. Pre-requisites:
 
-create a ROS2 workspace
+- create a ROS2 workspace
 
 2. Build the package 
 
 - Clone the repository:
 
-git clone git@github.com:Mohamad-Nasser-engr/Robotics-Session6-Assignment.git 
+* git clone git@github.com:Mohamad-Nasser-engr/Robotics-Session6-Assignment.git 
 
 - change directory:
 
-cd Robotics-Session6-Assignment/Session6_ros2_ws/src/
+* cd Robotics-Session6-Assignment/Session6_ros2_ws/src/
 
 - Source ROS2 and bashrc
 
-source /opt/ros/humble/setup.bash
+* source /opt/ros/humble/setup.bash
 
-source install/setup.bash
+* source install/setup.bash
 
 3. Launch the package:
 
-cd Robotics-Session6-Assignment/Session6_ros2_ws
+* cd Robotics-Session6-Assignment/Session6_ros2_ws
 
-ros2 launch launch/launch_file.py item_name:=item1 quantity:=50
+* ros2 launch launch/launch_file.py item_name:=item1 quantity:=50
 
 Note: 'item_name' must match one of the names in the stock checker server for the goal to be accepted, additionally, the quantity requested of the chosen item must be smaller or equal to the stock quantity.
 
