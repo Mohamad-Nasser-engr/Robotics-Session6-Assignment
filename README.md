@@ -34,23 +34,33 @@ Note that the stock checker client won't be explictly runned from the launch fil
 
 - Clone the repository:
 
-	git clone git@github.com:Mohamad-Nasser-engr/Robotics-Session6-Assignment.git 
-
+```bash 
+git clone git@github.com:Mohamad-Nasser-engr/Robotics-Session6-Assignment.git
+```
+    
 - change directory:
 
-	cd Robotics-Session6-Assignment/Session6_ros2_ws/src/
-
+```bash
+cd Robotics-Session6-Assignment/Session6_ros2_ws/src/
+```
 - Source ROS2 and bashrc
 
-	source /opt/ros/humble/setup.bash
+```bash
+source /opt/ros/humble/setup.bash
+```
 
-	source install/setup.bash
-
+```bash
+source install/setup.bash
+```
 3. Launch the package:
 
-	cd Robotics-Session6-Assignment/Session6_ros2_ws
+```bash
+cd Robotics-Session6-Assignment/Session6_ros2_ws
+```
 
-	ros2 launch launch/launch_file.py item_name:=item1 quantity:=50
+```bash
+ros2 launch launch/launch_file.py item_name:=item1 quantity:=50
+```
 
 Note: 'item_name' must match one of the names in the stock checker server for the goal to be accepted, additionally, the quantity requested of the chosen item must be smaller or equal to the stock quantity.
 
